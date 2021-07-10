@@ -1,15 +1,18 @@
 import React from 'react';
 import './About.css';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import image2 from '../pages/Images/MEE6713.jpg';
 import Card from 'react-bootstrap/Card';
 function About() {
   return (
     <div>
       <h1>About Page</h1>
-      
-      <p>
+     
+      <p className="aboutintro">
+      <Container>
       <Card style={{ width: '18rem'}}>
-  <Card.Body>
+    <Card.Body>
     <Card.Title></Card.Title>
     <Card.Text>
     I am originally from the East Coast and moved out to Denver to be closer to my family. I currently work as
@@ -22,23 +25,28 @@ function About() {
     
     </Card.Body>
     </Card>
-   
+    </Container>
       </p>
-      <p>
+     
+      
+      
+      <p className="aboutimg">
+      <Container>
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" className="image1" src={image2} />
   <Card.Body>
-    <Card.Title>Melanie Elson</Card.Title>
+    <Card.Title></Card.Title>
     <Card.Text>
      
     </Card.Text>
    
   </Card.Body>
-</Card>
-
-       
+   </Card>
+   </Container>
       </p>
+      
     </div>
+   
   );
 }
 export default About;

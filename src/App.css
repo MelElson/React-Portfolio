@@ -17,6 +17,18 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 40px;
 }
+.aboutintro {
+  flex-direction: column;
+  margin-left: 475px;
+}
+.aboutimg {
+  flex-direction: column;
+  margin-left: 400px;
+}
+.project {
+  flex-direction: column;
+  margin-left: 400px;
+}
 
 .App-header {
   background-color: #282c34;

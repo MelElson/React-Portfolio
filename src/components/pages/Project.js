@@ -10,9 +10,11 @@ import image4 from '../pages/Images/screenshotPWGenerator.png';
 
 export default function Project() {
   return (
-    <div >
+    <div>
       <Container>
       <h1>Project Page</h1>
+        <div className="project">
+      
    
    
     
@@ -77,7 +79,9 @@ export default function Project() {
 
         
       </p>
+      </div>
       </Container>
+      
     </div>
     
     
