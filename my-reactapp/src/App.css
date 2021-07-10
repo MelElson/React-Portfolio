@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #a09d89;
+  background-color: #bdb890;
 }
 
 .App-logo {
@@ -12,6 +12,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.HomeTagLine {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
 }
 
 .App-header {

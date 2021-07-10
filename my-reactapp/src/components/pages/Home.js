@@ -8,9 +8,8 @@ export default function Home() {
       <p>
       <img className="imgcar" src={image} alt="Car on Road"></img>
       </p>
-      <br>
-      </br>
-      <p>Follow me to exiting new ideas!</p>
+
+      <p className="HomeTagLine" >Follow me to exiting new ideas!</p>
     </div>
   );
 }
