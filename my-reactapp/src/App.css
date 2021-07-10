@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #bdb890;
+  background-color: #c5b993;
 }
 
 .App-logo {
@@ -45,6 +45,7 @@
 .imgcar {
   height: 25%;
   width: 100%;
+  flex-direction: column;
 }
 
 .nav-item {

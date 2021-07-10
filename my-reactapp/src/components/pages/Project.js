@@ -16,7 +16,7 @@ export default function Project() {
    
    
     
-          <p>
+    <p className="imgc">
         
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" className="image1" src={image1} />
@@ -31,12 +31,11 @@ export default function Project() {
       
       </p>
  
-    
-      
+     
 
       
      
-      <p>
+      <p className="imgc">
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" className="image1" src={image2} />
   <Card.Body>
